@@ -1,0 +1,19 @@
+[tool.poetry]
+authors = ["Ivan Zakutnii <zakutnii.ivan@gmail.com>"]
+description = "checkingout_atheris_fuzzer"
+license = "WTFPL"
+name = "atheris-playground"
+# packages = [{include = "atheris_playground"}]
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+atheris = "^2.3.0"
+beautifulsoup4 = "^4.12.2"
+python = "3.10.8"
+validators = "^0.22.0"
+email-validator = "^2.0.0.post2"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]

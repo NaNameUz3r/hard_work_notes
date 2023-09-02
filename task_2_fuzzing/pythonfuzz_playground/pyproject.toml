@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pythonfuzz-playground"
+version = "0.1.0"
+description = "playgrond_to_checkout_pythonfuzz"
+authors = ["Ivan Zakutnii <zakutnii.ivan@gmail.com>"]
+license = "WTFPL"
+readme = "README.md"
+packages = [{include = "pythonfuzz_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
