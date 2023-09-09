@@ -1,0 +1,17 @@
+[tool.poetry]
+authors = ["Ivan Zakutnii <zakutnii.ivan@gmail.com>"]
+description = ""
+name = "tdd"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+pytest = "^7.4.2"
+python = "^3.11"
+pydantic = "^2.3.0"
+dirty-equals = "^0.6.0"
+aiosqlite = "^0.19.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
