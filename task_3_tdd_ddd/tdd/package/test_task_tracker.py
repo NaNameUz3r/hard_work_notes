@@ -25,8 +25,6 @@ def test__add_task__to_tracker(task_tracker, new_task, database):
 def test__get_task_by_existing_id(task_tracker, new_task):
     task_id = task_tracker.add_task(new_task)
     get_task = task_tracker.get_task_by_id(task_id)
-    print("OLOLO")
-    print(get_task)
     assert new_task.id == get_task.id
 
 
