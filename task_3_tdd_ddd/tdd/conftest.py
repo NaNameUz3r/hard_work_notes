@@ -1,7 +1,7 @@
 import pytest
 from .package.tracker import TaskTracker
-from tdd.models.task import Task
-from tdd.storage.db import Database
+from .models.task import Task
+from .storage.db import Database
 
 
 @pytest.fixture
@@ -21,4 +21,5 @@ def task_tracker(database) -> TaskTracker:
 
 @pytest.fixture(autouse=True, scope="function")
 def truncate_db(database):
+    database._migrate_db()
     database._truncate_tasks()
