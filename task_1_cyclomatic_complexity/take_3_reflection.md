@@ -1,7 +1,5 @@
-не нашел подходящего для рефакторинга кода на пайтон и вырвал одну из функиций из своего проекта на го.
-Полиморфизм тут применить не получится...)))
+I couldn't find suitable Python code for refactoring, so I extracted one of the functions from my Go project. Applying polymorphism here is not feasible...)))
 
-Но поражает насколько можно лучше писать код если следовать хотя бы одному из правил занятия – пиши без else.
+It's astonishing how much better code can be written by just following one of the principles of the lesson – write code without using 'else.'
 
-
-А ещё тут стукнуло озарением по голове из "Ясного легаси" - как же страшно рефакторить код когда он вообще не покрыт тестами!
+Moreover, a realization struck me from 'Clean Legacy' – how scary it is to refactor code when it's not covered by tests at all!

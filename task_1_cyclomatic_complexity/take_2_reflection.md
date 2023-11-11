@@ -1,5 +1,3 @@
-Мой скрипт который я писал пару месяцев назад, Я не нашел ничего иного сейчас для рефакторинга, да и этот пример
-не то чтобы смог сильно улучшить. Конкретно в свете ЦС стало не намного лучше, удалось избавиться от одного не нужного else
-и более красиво обрабатывать исключения.
+My script, which I wrote a couple of months ago, I couldn't find much else for refactoring now, and this example doesn't seem to be significantly improvable. Specifically in terms of cyclomatic complexity (CC), it didn't get much better. I managed to eliminate one unnecessary 'else' and handle exceptions more elegantly.
 
-Думаю что самым важным из этого занятия на практике стало знакомство с python-radon, который я установил в вскод и отныне буду обращать внимание на собираемые им метрики всегда.
+I think the most important practical outcome of this exercise was getting acquainted with python-radon, which I installed in Visual Studio Code. From now on, I will always pay attention to the metrics it collects.
