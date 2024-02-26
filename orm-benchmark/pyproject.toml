@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "orm-benchmark"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Zakutnii <zakutnii.ivan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tortoise-orm = "^0.20.0"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
